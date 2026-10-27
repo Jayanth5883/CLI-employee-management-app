@@ -1,0 +1,15 @@
+{
+  "name": "employee-cli",
+  "version": "1.0.0",
+  "description": "A simple CLI employee management app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --env-file=.env app.js help",
+    "help": "node --env-file=.env app.js help",
+    "add": "node --env-file=.env app.js add",
+    "list": "node --env-file=.env app.js list",
+    "search": "node --env-file=.env app.js search",
+    "update": "node --env-file=.env app.js update",
+    "delete": "node --env-file=.env app.js delete"
+  }
+}
